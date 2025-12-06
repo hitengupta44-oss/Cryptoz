@@ -7,16 +7,16 @@ Technical Indicators Used
 
 * Gives more weight to recent prices.
 * Reacts faster to trend changes than SMA.
-* Used to detect **short-term trend direction.
+* Used to detect short-term trend direction.
 
-* When **EMA20 crosses above SMA50 → BUY
-* When **EMA20 crosses below SMA50 → SELL
+* When EMA20 crosses above SMA50 → BUY
+* When EMA20 crosses below SMA50 → SELL
 
 2. SMA50 (Simple Moving Average – 50 periods)
 
 * Calculates the average price of the last 50 candles.
 * Smoother, slower trend indicator.
-* Used as the **baseline trend filter.
+* Used as the baseline trend filter.
 
 EMA20 vs SMA50 crossovers = trend reversal signals.
 
@@ -28,8 +28,8 @@ EMA20 vs SMA50 crossovers = trend reversal signals.
 
 4. MACD (Moving Average Convergence Divergence)
 
-* MACD Line** = EMA12 – EMA26
-* Signal Line** = 9-period EMA of MACD
+* MACD Line = EMA12 – EMA26
+* Signal Line = 9-period EMA of MACD
 
 MACD tells:
 
@@ -51,7 +51,7 @@ Helps detect:
 
 6. VWAP (Volume Weighted Average Price)
 
-* Shows the **fair price relative to volume.
+* Shows the fair price relative to volume.
 * Higher weight to candles with big volume.
 * Used by traders to detect institutional entry/exit zones.
 
@@ -60,7 +60,7 @@ Helps detect:
 LSTM(64, return_sequences=True)
 Dropout(0.2)
 LSTM(32)
-Dense(16, activation='relu')
+Dense(16)
 Dense(1)   
 
 * Takes the last 60 minutes of data (lookback)
