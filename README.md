@@ -142,6 +142,10 @@ Trading Signals
 Blue ▲ for BUY
 Red ▼ for SELL
 
+<img width="1482" height="545" alt="image" src="https://github.com/user-attachments/assets/69ba3ec8-8a1f-4f03-a02e-ae1b0465d176" />
+
+<img width="1878" height="855" alt="image" src="https://github.com/user-attachments/assets/492f07ac-67ae-4c82-8efb-2e8fa213185f" />
+
 
 
 
